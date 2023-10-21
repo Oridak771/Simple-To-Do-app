@@ -2,7 +2,7 @@ from functions import get_todos, write_todos
 import time
 
 now = time.strftime('%I:%M %p')
-print("it is", now)
+print("it is:", now)
 while True:
     user_input = input("Type add, show, edit, delete or exit :")
     user_input = user_input.strip()
